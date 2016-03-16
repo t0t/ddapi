@@ -55,7 +55,7 @@ if(TARGET === 'build') {
     plugins: [
       new ExtractTextPlugin('[name].css', {
         allChunks: true
-      }), 
+      }),
       new webpack.optimize.UglifyJsPlugin({
         compress: {
           warnings: false
